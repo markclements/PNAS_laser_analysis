@@ -1,0 +1,115 @@
+Combined data: 
+
+1 rate, eps = 0
+   LH      aic          r     lambda 	eps
+-153.1465 308.2929 0.08733725 0.08733725   0
+
+2 rate, eps = 0
+node        LH      aic        r.1   lambda.1     LH.1       r.2  lambda.2      LH.2 eps
+ 29 -132.3226 270.6451 0.05169791 0.05169791 -93.7482 0.1064853 0.1064853 -38.57436   0
+
+p vlaue = 9.042709e-10
+
+node where shift occured = 29 (see attached pdf = combined.pdf)
+
+
+1 rate eps = 0.99 
+      LH      aic          r   lambda  eps
+ -159.6896 321.3792 0.02342117 2.342117 0.99
+
+2 rate eps = 0.99
+node        LH      aic         r.1  lambda.1      LH.1        r.2 lambda.2      LH.2  eps
+29 -139.5595 285.1189 0.003420426 0.3420426 -100.3542 0.03914307 3.914307 -39.20526 0.99
+
+p-value = 1.809683e-09
+
+node where shift occured = 29 (see attached pdf = combined.pdf)
+
+
+
+Rate Decrease evaluation combined data: 
+
+node        LH      aic        r.1   lambda.1      LH.1         r.2    lambda.2        LH.2 eps
+6 -145.8956 297.7911 0.08862994 0.08862994 -145.8069 0.001063260 0.001063260 -0.08871706   0
+
+node        LH      aic        r.1 lambda.1      LH.1        r.2 lambda.2      LH.2  eps
+24 -153.9153 313.8306 0.02463138 2.463138 -151.0956 0.00107339 0.107339 -2.819684 0.99
+
+
+
+
+ndhf data: 
+
+1 rate, eps=0
+ LH      aic         r    lambda eps
+-173.1198 348.2397 0.0950476 0.0950476   0
+
+2 rate, eps=0
+node        LH      aic        r.1   lambda.1      LH.1       r.2  lambda.2      LH.2 eps
+23 -139.0476 284.0952 0.02979475 0.02979475 -49.47989 0.1082768 0.1082768 -89.56769   0
+
+p value = 1.554312e-15
+
+node where shift occured = 23 (see attached pdf = ndhf.pdf)
+
+1 rate, eps=0.99
+       LH      aic          r   lambda  eps
+-165.5103 333.0206 0.02451046 2.451046 0.99
+
+
+2 rate, eps=0.99
+node        LH      aic         r.1  lambda.1      LH.1        r.2 lambda.2      LH.2  eps
+ 28 -140.1618 286.3235 0.002723814 0.2723814 -100.5542 0.04334569 4.334569 -39.60754 0.99
+ 
+node where shift occured = 28 (see attached pdf = ndhf.pdf)
+
+p value = 9.800716e-12
+
+
+Rate Decrease evaluation ndhf data: 
+
+node        LH      aic        r.1   lambda.1      LH.1         r.2    lambda.2      LH.2 eps
+31 -160.4502 326.9004 0.09755889 0.09755889 -158.5406 0.005352843 0.005352843 -1.909543   0
+
+node        LH      aic        r.1 lambda.1      LH.1          r.2    lambda.2      LH.2  eps
+31 -154.6699 315.3398 0.02663319 2.663319 -152.7407 8.370946e-05 0.008370946 -1.929245 0.99
+
+
+
+
+PHYA data:
+
+1 rate, eps =0 
+         LH      aic          r     lambda eps
+ -137.1272 276.2543 0.09663541 0.09663541   0
+ 
+2 rate eps=0
+ node      LH    aic        r.1   lambda.1     LH.1       r.2  lambda.2     LH.2 eps
+ 20 -108.14 222.28 0.04518027 0.04518027 -66.4514 0.1173852 0.1173852 -41.6886   0
+ 
+ p value = 2.576828e-13
+ 
+node shift = 20 (see pdf = PHY.pdf)
+
+1 rate, eps=0.99
+      LH      aic          r   lambda  eps
+-122.7254 247.4509 0.02674145 2.674145 0.99
+
+2 rate, eps=0.99
+
+node        LH      aic         r.1  lambda.1      LH.1        r.2 lambda.2      LH.2  eps
+19   20 -107.2485 220.4970 0.004270082 0.4270082 -67.08338 0.04203799 4.203799 -40.16511 0.99
+
+p value = 1.898646e-07
+
+node shift = 19 (see pdf = PHY.pdf)
+
+
+Rate Decrease PHYA data:
+
+node        LH      aic       r.1  lambda.1      LH.1        r.2   lambda.2      LH.2 eps
+15 -128.7928 263.5855 0.1001033 0.1001033 -120.5659 0.03723902 0.03723902 -8.226868   0
+node        LH      aic        r.1 lambda.1      LH.1         r.2  lambda.2      LH.2  eps
+15 -117.1636 240.3273 0.02956147 2.956147 -108.9367 0.002348995 0.2348995 -8.226906 0.99
+
+
